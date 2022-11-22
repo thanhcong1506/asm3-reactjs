@@ -45,13 +45,11 @@ const Detail = (item) => {
   };
 
   const addToCartHandle = () => {
-    if(userLogin){
-
+    if (userLogin) {
       const newItem = { ...productCurrent, qty };
       console.log({ newItem });
       let totalPrice = qty * productCurrent.price;
-      
-  
+
       const tempProduct = {
         ...productCurrent,
         quantity: qty,
@@ -59,10 +57,9 @@ const Detail = (item) => {
       };
       dispatch(addToCart(tempProduct));
       navigate("/cart");
-    }
-    else{
-      toast.error('Please login')
-      navigate("/login")
+    } else {
+      toast.error("Please login");
+      navigate("/login");
     }
   };
 
@@ -109,9 +106,7 @@ const Detail = (item) => {
           </div>
           <div className=" col-lg-6 d-flex flex-column gap-2 pe-5">
             <h1>{productCurrent.name}</h1>
-            <p>
-              {productCurrent.price} VNĐ
-            </p>
+            <p>{productCurrent.price} VNĐ</p>
             <span>{productCurrent.short_desc}</span>
             <p className=" fw-bold fst-italic">
               CATEGORY:{" "}
