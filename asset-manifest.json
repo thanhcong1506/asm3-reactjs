@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/asm3-reactjs/static/css/main.fb70f638.css",
+    "main.js": "/asm3-reactjs/static/js/main.1bbe0d5d.js",
+    "static/media/product_2.png": "/asm3-reactjs/static/media/product_2.1bc52f8922d488cead68.png",
+    "static/media/product_3.png": "/asm3-reactjs/static/media/product_3.48eda5293a6f605e73f7.png",
+    "static/media/product_4.png": "/asm3-reactjs/static/media/product_4.6d83c6007d5109b357a8.png",
+    "static/media/product_1.png": "/asm3-reactjs/static/media/product_1.b24c110a233df54143c8.png",
+    "static/media/product_5.png": "/asm3-reactjs/static/media/product_5.b963def7555b7544d220.png",
+    "static/media/banner1.jpg": "/asm3-reactjs/static/media/banner1.4a22881c941f7b645fa8.jpg",
+    "index.html": "/asm3-reactjs/index.html",
+    "main.fb70f638.css.map": "/asm3-reactjs/static/css/main.fb70f638.css.map",
+    "main.1bbe0d5d.js.map": "/asm3-reactjs/static/js/main.1bbe0d5d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb70f638.css",
+    "static/js/main.1bbe0d5d.js"
+  ]
+}
